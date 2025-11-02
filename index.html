@@ -126,7 +126,7 @@ let editingCommand = null;
 // ==========================================================================
 // ===== VITAL STEP: Point the frontend to your live Render backend URL =====
 // ==========================================================================
-const backendUrl = "https://botalto-jy0i.onrender.com"; // <-- PASTE YOUR RENDER URL HERE
+const backendUrl = "https://botaltohost.onrender.com"; // <-- PASTE YOUR RENDER URL HERE
 
 // API helper
 const api = (p,d) => fetch(`${backendUrl}${p}`,{method:'POST',headers:{'Content-Type':'application/json'},body:JSON.stringify(d)}).then(r=>r.json());
